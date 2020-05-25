@@ -1,0 +1,46 @@
+/* Css code for Navbar*/
+nav{
+    background-color: #1B1618;
+    object-fit: contain;
+    margin: 0px, 0p;
+    padding: 0px;
+}
+div.topnav{
+    height: inherit;
+}
+/* Styles for HSL and LPL logos*/
+img.navbar-brand{
+    float: left;
+    max-width: 10%;
+    width: 100%;
+    height: auto;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+
+}
+/* Container for links and buttons that aligns them to the right*/
+div.topnav-right{
+    display: flex;
+    justify-content: flex-end;
+    align-content: right;
+}
+
+span.collapse{
+    display: flex;
+    justify-content: right;
+}
+
+a.btn{
+    background-color: rgb(63, 63, 63);
+}
+a.btn:hover{
+    background-color: #2ed98c;
+}
+
+
+
+
+
+body {
+    background-image: url(/Assets/Dota_2-greyscale.jpg);
+}
