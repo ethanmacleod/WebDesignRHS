@@ -23,10 +23,17 @@ body {
 /* Css code for Navbar*/
 nav{
     background-color: #1B1618;
+    opacity: 0.85;
     object-fit: contain;
     margin: 0px;
     padding-top: 0px;
     display: block;
+
+    text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 div.topnav{
     height: inherit;
@@ -114,7 +121,7 @@ li.img-link{
 
 .page-info{
     color: White;
-    background-color: rgba(63, 63, 63, 0.85);
+    background-color: rgba(14, 31, 38, 0.85);
 
     max-width: 75%;
     width: 100%;
@@ -126,6 +133,13 @@ li.img-link{
     /* sets font to 2 "veiw-widths" whch is based off the screen size*/
     font-size: 2vw;
     text-shadow: 0, 1, 10, black !important;
+    border-radius:10px;
+    
+    text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 @media only screen and (max-width: 430px) {
     .page-info {
@@ -135,9 +149,9 @@ li.img-link{
 
 .page-info-title{
     color: White;
-    background-color: rgba(63, 63, 63, 0.85);
+    background-color: rgba(14, 31, 38, 0.85);
 
-    max-width: 50%;
+    max-width: 30%;
     width: 100%;
     height: auto;
 
@@ -145,6 +159,11 @@ li.img-link{
     margin-right: auto;
 
     text-align: center;
+    text-shadow: 
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
 }
 
 table{
@@ -161,6 +180,11 @@ table{
 
     /* sets font to 2 "veiw-widths" whch is based off the screen size*/
     font-size: 2vw;
+    text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 td, th {
