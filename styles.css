@@ -13,13 +13,12 @@ body {
     background-repeat: no-repeat;
 }
 
-@media only screen and (max-height: 940px){
+@media only screen and (max-width: 600px) {
     body{
-        background-size: relative, 100%;
-
+        background-size: auto, 100%;
     }
-
 }
+
 
 /* Css code for Navbar*/
 nav{
@@ -42,7 +41,7 @@ img.navbar-brand{
 
 /* Container for links and buttons*/
 div.topnav-right{
-    padding: 0;
+    padding: 8px;
 }
 
 /* Login and Register buttons - Nav*/
@@ -57,9 +56,6 @@ a.btn:hover{
 /* Pages - Nav*/
 ul.navbar-nav{
     align-content: center;
-}
-li.nav-item{
-    margin-right: 5%;
 }
 h3{
     margin-bottom: 0px !important;
@@ -103,6 +99,7 @@ li.img-link{
     margin-top: 125px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 25px;
 
     border-width: 20px !important;
     border-color: rgb(63, 63, 63);
@@ -112,4 +109,24 @@ li.img-link{
     border-radius: 2%;
     outline-width: 20px;
     outline-color: rgb(63, 63, 63);
+}
+
+.page-info{
+    color: White;
+    background-color: rgba(63, 63, 63, 0.85);
+
+    max-width: 75%;
+    width: 100%;
+    height: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 2vw;
+    text-shadow: 0, 1, 10, black !important;
+}
+@media only screen and (max-width: 430px) {
+    .page-info {
+        font-size: 3vw;
+    }
 }
