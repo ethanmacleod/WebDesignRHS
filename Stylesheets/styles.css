@@ -23,7 +23,7 @@ body {
 /* Css code for Navbar*/
 nav{
     background-color: #1B1618;
-    opacity: 0.85;
+    opacity: 0.90;
     object-fit: contain;
     margin: 0px;
     padding-top: 0px;
@@ -56,9 +56,16 @@ div.topnav-right{
 a.btn{
     background-color: rgb(63, 63, 63);
     margin-right: 2%;
+
+    text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 a.btn:hover{
     background-color: #2ed98c;
+    color: white !important;
 }
 
 /* Pages - Nav*/
@@ -121,7 +128,7 @@ li.img-link{
 
 .page-info{
     color: White;
-    background-color: rgba(14, 31, 38, 0.85);
+    background-color: rgba(14, 31, 38, 0.55);
 
     max-width: 75%;
     width: 100%;
@@ -149,7 +156,7 @@ li.img-link{
 
 .page-info-title{
     color: White;
-    background-color: rgba(14, 31, 38, 0.85);
+    background-color: rgba(14, 31, 38, 0.55);
 
     max-width: 30%;
     width: 100%;
@@ -169,7 +176,7 @@ li.img-link{
 table{
 
     color: White;
-    background-color: rgba(63, 63, 63, 0.85);
+    background-color: rgba(14, 31, 38, 0.55);
 
     max-width: 75%;
     width: 100%;
@@ -194,30 +201,45 @@ td, th {
   }
 
   .page-footer{
-      background-color: rgb(63, 63, 63);
+      background-color: rgb(45, 56, 61);
+      
   }
 
   .footer-buttons {
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 10px;
+	box-shadow: 5px 4px 6px 0px #1bc2c2;
+	background:linear-gradient(to bottom, #455fc7 5%, #2ab8bd 100%);
+	background-color:#455fc7;
+	border-radius:42px;
+	border:2px solid #198eab;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:2px 2px 1px #482866;
+}
+.footer-buttons:active {
+    
+}
+
+  .footer-designer-info {
+
+    background-color: rgb(63, 63, 63);
+    color: White;
+
+    font-size: 1vw;
+    text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+
   }
-  .lpl-button{
-      background-color: rgba(14, 31, 38, 0.85);
-      background-image: url(/Assets/LPL-White.png);
-      background-size: 100%;
-      background-repeat: no-repeat;
-      background-position: center;
-  }
-  .discord-button{
-    background-color: rgba(14, 31, 38, 0.85);
-    background-image: url(/Assets/discord-icon-circle-png.png);
-    background-size: 115%;
-    background-repeat: no-repeat;
-    background-position: center;
+  @media only screen and (max-width: 430px){
+      .footer-designer-info{
+          font-size: 2vw;
+      }
   }
